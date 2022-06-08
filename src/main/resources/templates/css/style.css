@@ -1,0 +1,70 @@
+table {
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table tr {
+    text-align: center;
+}
+
+table td, table th {
+    border: 1px solid #FFFFFF;
+    padding: 3px 4px;
+}
+
+table tbody td {
+    font-size: 14px;
+}
+
+table td:nth-child(even) {
+    background: #EBEBEB;
+}
+
+table thead {
+    background: #FFFFFF;
+    border-bottom: 4px solid #333333;
+}
+
+table thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    border-left: 2px solid #333333;
+}
+
+table thead th:first-child {
+    border-left: none;
+}
+
+table tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    border-top: 4px solid #333333;
+}
+
+table tfoot td {
+    font-size: 14px;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+.form-group {
+    margin: 0;
+}
+
+.el-of-line {
+    margin-right: 15px;
+}
+
+.form-group label {
+    width: 100%;
+}
+
+.loginForm {
+    width: 30%;
+}
